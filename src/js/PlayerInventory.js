@@ -40,15 +40,15 @@
 
 		// Add slots for each character class
 		for (var i = 0; i < 3; i++) {
-			var newSlot = new game.PlayerSlot(game.SlotTypes.WAR, this.slotID++);
+			var newSlot = new game.PlayerSlot(game.SlotTypes.WAR, this.slotID + 2);
 			this.addSlot(newSlot);
 		};
 		for (var i = 0; i < 3; i++) {
-			var newSlot = new game.PlayerSlot(game.SlotTypes.WIZ, this.slotID++);
+			var newSlot = new game.PlayerSlot(game.SlotTypes.WIZ, this.slotID + 2);
 			this.addSlot(newSlot);
 		};
 		for (var i = 0; i < 3; i++) {
-			var newSlot = new game.PlayerSlot(game.SlotTypes.ARCH, this.slotID++);
+			var newSlot = new game.PlayerSlot(game.SlotTypes.ARCH, this.slotID + 2);
 			this.addSlot(newSlot);
 		};
 

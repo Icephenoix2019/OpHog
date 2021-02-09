@@ -645,7 +645,7 @@
             life: [15,120],
             def:[1,15],
             name:'Ring of God',
-            flavorText:'"I can see the truth now..."',
+            flavorText:'I can see the truth now...',
             graphicIndex: game.Graphic.PLAIN_GOLD_RING,
             equippableBy: game.EquippableBy.ALL,
             sellPrice: 100,
@@ -674,7 +674,7 @@
         },
         RANDOM_WEAPON_2: {
             id: 47,
-            itemLevel:10,
+            itemLevel:5,
             atk: [-16,16],
             name:'Randomized Dagger Lvl 2',
             flavorText:'A dagger that is completly randomized. Now Lvl 2.',
@@ -684,7 +684,7 @@
         },
         RANDOM_ACC_2: {
             id: 48,
-            itemLevel:10,
+            itemLevel:5,
             atk: [-6,6],
             def:[-6,6],
             life:[-40,40],

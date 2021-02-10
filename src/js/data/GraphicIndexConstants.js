@@ -769,13 +769,13 @@
         BLACK_PANTS: 331,
         BLUE_PANTS_2: 332,
         GREEN_PANTS_2: 333,
-        RANDOM_SWORD: 337,
-        ORANGE_QUIVER: 338,
-        PURPLE_QUIVER: 339,
-        CRYSTAL_HEART: 340,
-        DARK_QUIVER: 341,
-        DEMON_QUIVER: 342,
-        DARK_HEART: 343,
+        RANDOM_SWORD: 336,
+        ORANGE_QUIVER: 337,
+        PURPLE_QUIVER: 338,
+        CRYSTAL_HEART: 339,
+        DARK_QUIVER: 340,
+        DEMON_QUIVER: 341,
+        DARK_HEART: 342,
         //----------------------------------------------------------------------
         // Graphics for icon_16.png
         //----------------------------------------------------------------------

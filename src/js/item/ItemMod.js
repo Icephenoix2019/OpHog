@@ -27,7 +27,8 @@
         REDUCE_DAMAGE: 'reduce damage',
         POISON: 'poison',
         REGEN: 'regen',
-        MULTIPLE_PROJECTILES: 'multiple projectiles'
+        MULTIPLE_PROJECTILES: 'multiple projectiles',
+        GREED: 'greed'
     };
   
     /**
@@ -135,6 +136,9 @@
                     break;
                 case game.ItemModType.REGEN: 
                     finalMod = new game.Regen(modObject.chanceToRegen);
+                    break;
+                case game.ItemModType.GREED: 
+                    finalMod = new game.Greed(modObject.extraGoldAmmount);
                     break;
                 default:
                     finalMod = null;
